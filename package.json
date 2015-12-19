@@ -1,0 +1,28 @@
+{
+	"name": "contact-craig",
+	"version": "0.0.1",
+	"description": "Hooks to quickly parse a list on craigslist and have the option to send emails to each listing. Scope is very limited.",
+	"main": "index.js",
+	"scripts": {
+	"test": "test.js"
+	},
+	"repository" : {
+		"type" : "git"
+		,"url" : "https://github.com/amaurer/contact-craig.git"
+	},
+	"keywords": [
+		"craigslist",
+		"parser",
+		"email",
+		"quick",
+		"attachments"
+	],
+	"author": "maurerdotme",
+	"license": "MIT",
+	"dependencies": {
+		"request": "*",
+		"cheerio": "*",
+		"nodemailer": "*",
+		"mymvc": "*"
+	}
+}
